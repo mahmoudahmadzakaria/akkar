@@ -11,7 +11,7 @@ The user can press on location button then will be directed to apple maps with t
 
 # How to Build
 In order to download the images from flicker for specific areas in Akkar, I have created Album for each village in my flicker account.
-One the user click on "Click Here to discover Akkar", the application will send a request to flicker using "flickr.photosets.getList" which will download all albums from my account; from this method I will get the name of the villages.
+Once the user click on "Click Here to discover Akkar", the application will send a request to flicker using "flickr.photosets.getList" which will download all albums from my account; from this method I will get the name of the villages.
 "flickr.photosets.getPhotos" will be used to downlad one image and put it as background for each album in my application.
 Image Data and album title will be saved in Database in order to have the application persistent.
 Once the user will click on any image, then "flickr.photosets.getPhotos" again will be used to dowload the remaining images for each village; also here the the images data for each village will be saved in database.
